@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "SLIMERVERDE49_SubTool2_NM.tga(1)",
+  "identifier": "texture:11849-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ada6ccccb43cf56d496bd3b421e78bc8",
+  "assetLocator": "textures/SLIMERVERDE49_SubTool2_NM.tga(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ada6ccccb43cf56d496bd3b421e78bc8",
+      "colorCount": 12332,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.735346280298502,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

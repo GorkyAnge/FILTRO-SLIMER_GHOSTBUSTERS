@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Slimer",
+  "identifier": "texture:2172-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "8f4db71ed1d6f16325ce528d12aa8147",
+  "assetLocator": "textures/Slimer.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 293,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 300,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "8f4db71ed1d6f16325ce528d12aa8147",
+      "colorCount": 36379,
+      "detectedAlphaChannel": "one_bit",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.825342539061214,
+      "pixelsHigh": 293,
+      "pixelsWide": 300
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "PKELow2_1001_BaseColor",
+  "identifier": "texture:3983-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ed3572b3ae645f9d3f5b23aa54b6e7a4",
+  "assetLocator": "textures/PKELow2_1001_BaseColor.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ed3572b3ae645f9d3f5b23aa54b6e7a4",
+      "colorCount": 10326,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.460389887053941,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

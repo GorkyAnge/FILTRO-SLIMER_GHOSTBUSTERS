@@ -1,0 +1,240 @@
+{
+  "id": "154150c7cf912cb14bac926b2c225c2c2243",
+  "revision": "5413550c7cf912cb14bac926b2c225c2c2243",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3046-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPatch": "template_patch_model:3040-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:3044-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3048-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPatch": "template_patch_model:3044-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:3042-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:44315-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPatch": "template_patch_model:44309-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:44313-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:44317-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPatch": "template_patch_model:44313-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:44311-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:1629-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "subpatches": [
+          "consumer_patch_model:3042-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+          "consumer_patch_model:44311-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+          "template_patch_model:3040-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+          "template_patch_model:3044-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+          "template_patch_model:44309-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+          "template_patch_model:44313-50c7cf91-2cb1-4bac-926b-2c225c2c2243"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "plane0",
+        "identifier": "consumer_patch_model:3042-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "object": "plane:1946-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "objectProperty": "position",
+        "position": [
+          780.0749999999997,
+          67.64999999999998
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.17125388979911804,
+                -0.004383265972137451,
+                -0.13862907886505127
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "slimer_ghostbusters",
+        "identifier": "consumer_patch_model:44311-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "object": "master3_d_object_model:16865-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "objectProperty": "position",
+        "position": [
+          -1687.645759705023,
+          -332.79982607485726
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.18624894320964813,
+                -0.2041461318731308,
+                -0.12058389186859131
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:3040-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "position": [
+          164.0749999999997,
+          67.64999999999998
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:3044-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "position": [
+          382.0749999999997,
+          67.64999999999998
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.17125388979911804,
+                -0.054383265972137454,
+                -0.13862907886505127
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.17125388979911804,
+                0.04561673402786255,
+                -0.13862907886505127
+              ]
+            }
+          },
+          {
+            "port": "104",
+            "value": {
+              "t": "int",
+              "v": 6
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:44309-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "position": [
+          -2303.645759705023,
+          -332.79982607485726
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:44313-50c7cf91-2cb1-4bac-926b-2c225c2c2243",
+        "position": [
+          -2085.645759705023,
+          -332.79982607485726
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.18624894320964813,
+                -0.2541461318731308,
+                -0.12058389186859131
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.18624894320964813,
+                -0.1541461318731308,
+                -0.12058389186859131
+              ]
+            }
+          },
+          {
+            "port": "104",
+            "value": {
+              "t": "int",
+              "v": 6
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      }
+    ]
+  }
+}
